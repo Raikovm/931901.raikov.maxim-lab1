@@ -1,0 +1,146 @@
+* {
+    color: white;
+    font-size: 20px;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background: #0000FF;
+    padding: 5px 20px;
+    margin: 0 auto;
+    max-width: 28%;
+    overflow: hidden;
+}
+
+.header {
+    background: #008000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1px;
+    text-align: center;
+}
+
+.header p {
+    margin: 10px;
+}
+
+.footer {
+    background: #008000;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 40px;
+    margin: 10px auto 20px auto;
+}
+
+#square{
+    display: inline;
+    box-sizing: content-box;
+    float: left;
+    min-height: 100px;
+    min-width: 100px;
+    margin: 0 20px 20px 0;
+    border: 5px solid #FFFFFF;
+    border-radius: 15px 0;
+}
+
+.content section:first-child p{
+    line-height: 24px;
+    margin: 0;
+    clear: right;
+}
+
+nav {
+    text-align: center;
+    margin: 5px 0;
+}
+
+a:link{
+    color: #FF0000;
+}
+
+a:visited{
+    color: #FF0000;
+}
+
+.content section:nth-child(3) h2{
+    margin: 0;
+    word-spacing: 10px;
+    font-size: 30px;
+}
+
+.content section:nth-child(3) h2 span{
+    color: #FF0000;
+    font-size: 30px;
+}
+
+ul{
+    margin: 5px auto;
+    list-style: outside;
+}
+
+ul > li {
+    line-height: 35px;
+}
+
+ul > li:nth-child(2){
+    color: #00F0FF;
+    letter-spacing: 10px;
+}
+
+.content section:last-child h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.content section:last-child p {
+    font-size: 24px;
+    line-height: 16px;
+    margin: 17px auto 17px auto;
+}
+
+.content section:last-child p:last-child{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+}
+
+.content aside{
+    float: right;
+}
+
+table, td{
+    border-spacing: 3px;
+    border: 1px solid #FFFFFF;
+}
+
+td{
+    width: 45px;
+    height: 35px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 100;
+    vertical-align: bottom;
+}
+
+tr:first-child td:first-child {
+    background-color: #008000;
+}
+
+tr:last-child td:last-child {
+    background-color: #FF0000;
+}
+
+.content aside img {
+    position: relative;
+    top: 5px; left: 137px;
+    visibility: visible;
+    margin-top: 10px;
+}
